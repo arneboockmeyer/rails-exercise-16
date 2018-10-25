@@ -13,7 +13,12 @@ gem 'mina', require: false
 gem 'mina-puma', require: false, github: 'untitledkingdom/mina-puma'
 gem 'turbolinks'
 gem 'sprockets'
-gem 'uglifier', '>= 1.3.0'
+gem 'sass'
+gem 'sass-listen'
+gem 'rb-fsevent'
+gem 'rb-inotify'
+gem 'ffi'
+gem 'uglifier'
 
 group :development, :test do
   gem 'rspec-rails', '~> 3.3'
