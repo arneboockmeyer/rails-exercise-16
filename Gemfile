@@ -11,7 +11,7 @@ gem 'jquery-rails'
 
 gem 'mina', require: false
 gem 'mina-puma', require: false, github: 'untitledkingdom/mina-puma'
-gem 'jquery-rails'
+gem 'turbolinks'
 
 group :development, :test do
   gem 'rspec-rails', '~> 3.3'
