@@ -12,6 +12,7 @@ gem 'jquery-rails'
 gem 'mina', require: false
 gem 'mina-puma', require: false, github: 'untitledkingdom/mina-puma'
 gem 'turbolinks'
+gem 'sprockets'
 gem 'uglifier', '>= 1.3.0'
 
 group :development, :test do
